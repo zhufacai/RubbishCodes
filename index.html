@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
+  <meta content="垃圾代码" name="description"> 
+  <meta content="垃圾代码" name="keywords"> 
+  <meta name="theme-color" content="#252628"> 
+  <title>垃圾代码</title> 
+  <link rel="icon" type="image/png" href="images/logo.png"> 
+  <link rel="icon" type="image/png" sizes="144x144" href="images/logo.png"> 
+  <link rel="apple-touch-icon" type="image/png" href="images/logo.png"> 
+  <style>
+   
+    html,body {
+      margin: 0;
+    }
+    html {
+      font-size: 13.3333vw;
+    }
+    body {
+      font-size: 16px;
+      background-color: #333333;
+      font-family: sans-serif;
+    }
+
+    body::after {
+      content: '';
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url(images/hand-hold.png);
+      background-size: auto 120%;
+      background-position: 50% 100%;
+      background-repeat: no-repeat;
+    }
+
+    a,a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    @media screen and (orientation: portrait) and (max-width: 750px) {
+      article h2 {
+        font-size: 1rem;
+        margin-right: 0.3rem;
+      }
+      article span,
+      article p {
+        display: none;
+      }
+    }
+    @media screen and (orientation: portrait) and (max-width: 560px) {
+      ul {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media screen and (max-width: 800px) {
+      main {
+        width: auto;
+        margin: 0 20px;
+      }
+    }
+    @media screen and (min-width: 750px) {
+      html { font-size: 100px;}
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #191919;
+      }
+      h1 path:nth-child(1) {
+        fill: #fff;
+      }
+      article {color: #fff;}
+      section, li a {
+        background-color: rgb(255 255 255/.05);
+        box-shadow: inset 0 0 1px rgb(255 255 255 / 30%), 0 0 1px rgb(0 0 0 / 30%);
+      }
+      li a:focus {
+        background-color: rgb(255 255 255/.2)!important;
+      }
+      li a:hover {
+        box-shadow: none;
+      }
+      li:nth-child(4) g {
+        fill: #999;
+      }
+      li:nth-child(4) a:hover g {
+        fill: #ae7eff;
+      }
+      footer {
+        color: rgb(255 255 255/.2);
+      }
+    }
+  </style> 
+ </head> 
+</html>
